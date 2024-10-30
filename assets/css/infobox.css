@@ -1,0 +1,567 @@
+
+/*--------------------------------------------------------------
+# Accordion
+--------------------------------------------------------------*/
+.mega-addons-accordion {}
+
+/*Style 1*/
+
+.mega-addons-accordion-item:not(last-child) {
+    margin-bottom: 15px;
+}
+
+.mega-addons-accordion-item {
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px 7px 37px 0px rgba(0, 0, 0, 0.05);
+}
+
+.mega-addons-accordion-item.active h5 {
+    border-bottom: 1px solid #dadde1;
+}
+
+.mega-addons-accordion-item h5 {
+    padding: 20px 30px!important;
+    cursor: pointer;
+    margin-bottom: 0!important;
+}
+
+.mega-addons-accordion.style-1 .mega-addons-accordion-item h5 span {
+    float: right;
+    padding: 5px;
+}
+
+.mega-addons-accordion-item.active h5 span:nth-child(1) {
+    display: none;
+}
+
+.mega-addons-accordion-item h5 span:nth-child(2) {
+    display: none;
+}
+
+.mega-addons-accordion-item.active h5 span:nth-child(2) {
+    display: block;
+}
+
+.mega-addons-accordion-item .collapsing,
+.mega-addons-accordion-item .collapse {
+    padding: 15px 30px;
+}
+
+/*Style 2*/
+
+.mega-addons-accordion.style-2 .mega-addons-accordion-item h5 span {
+    float: left;
+    padding: 3px 15px 0px 0;
+}
+
+.mega-addons-accordion.style-2 .mega-addons-accordion-item {
+    border-radius: 0;
+}
+
+/*Style 3*/
+
+.mega-addons-accordion.style-3 .mega-addons-accordion-item {
+    box-shadow: none;
+    border: 1px solid #dadde1;
+    border-radius: 0;
+}
+
+.mega-addons-accordion.style-3 .mega-addons-accordion-item.active h5 {
+    color: #fff;
+}
+
+/*--------------------------------------------------------------
+# Banner
+--------------------------------------------------------------*/
+
+.mega-addons-banner {
+    padding: 250px 0 200px;
+    color: #fff;
+}
+
+.mega-addons-banner h1 {
+    font-size: 60px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.mega-addons-banner p {
+    font-size: 26px;
+    line-height: 40px;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+
+.mega-addons-banner .mega-addons-btn {
+    border-radius: 30px;
+}
+
+
+/*--------------------------------------------------------------
+# Button
+--------------------------------------------------------------*/
+.mega-addons-btn {
+    color: #fff;
+    display: inline-block;
+    padding: 15px 50px;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.mega-addons-btn:hover {
+    color: #fff;
+}
+
+.mega-addons-btn i {
+    margin-right: 20px;
+}
+
+.mega-addons-btn.shadow {
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    -webkit-box-shadow: 0 7px 10px 6px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 7px 10px 6px rgba(0, 0, 0, 0.08);
+}
+
+.mega-addons-play-btn>span {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    border-radius: inherit;
+    border-color: inherit;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.mega-addons-play-btn-txt {
+    font-weight: 700;
+    color: #000;
+}
+
+.mega-addons-play-btn-icon {
+    border-radius: 50%;
+    margin-top: -5%;
+    margin-bottom: -5%;
+    letter-spacing: 0;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    width: 3.5em;
+    height: 3.5em;
+    order: -1;
+    margin-left: 0;
+    margin-right: 20px;
+    border: none;
+    color: #fff;
+}
+
+.mega-addons-btn.bordered {
+    background: #fff;
+    border: 2px solid;
+}
+
+.mega-addons-btn.bordered:hover {
+    color: #fff;
+}
+
+/*--------------------------------------------------------------
+# Counter
+--------------------------------------------------------------*/
+
+.mega-addons-counter {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.mega-addons-counter-icon {
+    width: 85px;
+    height: 85px;
+    margin: 0 auto 20px;
+    color: #fff;
+    border-radius: 50%;
+}
+
+.mega-addons-counter-icon i {
+    font-size: 28px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.mega-addons-counter h5 {
+    margin-bottom: 30px
+}
+
+.mega-addons-counter p {
+    font-size: 52px;
+    font-weight: lighter;
+}
+
+/*--------------------------------------------------------------
+# Post
+--------------------------------------------------------------*/
+
+.mega-addons-post {
+    box-shadow: 5.994px 14.835px 30px 0px rgba(229, 234, 239, 0.5);
+    overflow: hidden;
+}
+
+.mega-addons-post-content {
+    padding: 30px 20px;
+}
+
+.mega-addons-post-content h5 {
+    line-height: 30px;
+    font-weight: 600;
+    margin-top: 10px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eceef2;
+}
+
+.mega-addons-post-content p {
+    font-size: 16px
+}
+
+.mega-addons-post-content ul {
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.mega-addons-post-content ul li i {
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.mega-addons-post-content .avatar {
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/*--------------------------------------------------------------
+# Video
+--------------------------------------------------------------*/
+.mega-addons-video-popup {
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: table;
+    text-align: center;
+}
+
+.mega-addons-video-popup-overlay {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.mega-addons-popup-video {
+    position: relative;
+    margin: auto;
+    width: 66px;
+    height: 66px;
+    border-radius: 50%;
+    font-size: 18px;
+    color: #fff;
+    animation: 1.6s playShadow ease-out infinite;
+    display: flex;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.mega-addons-popup-video span {
+    margin: auto;
+    padding-left: 3px;
+}
+
+.mega-addons-popup-video:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 50%;
+    z-index: -1;
+    pointer-events: none;
+    transition: 0.35s;
+}
+
+.mega-addons-popup-video:hover:after {
+    box-shadow: 0 0 0 4px rgba(239, 35, 60, 0.3), 0 0 0 8px rgba(239, 35, 60, 0.2);
+}
+
+@keyframes playShadow {
+    0% {
+        box-shadow: 0 0 0 0px rgba(239, 35, 60, 0.3), 0 0 0 0px rgba(239, 35, 60, 0.2);
+        transform: scale(1);
+    }
+
+    18% {
+        box-shadow: 0 0 0 0px rgba(239, 35, 60, 0.3), 0 0 0 0px rgba(239, 35, 60, 0.2);
+    }
+
+    35% {
+        transform: scale(1.08);
+    }
+
+    76% {
+        transform: scale(0.96);
+    }
+
+    100% {
+        box-shadow: 0 0 0 16px rgba(239, 35, 60, 0), 0 0 0 27px rgba(239, 35, 60, 0);
+        transform: scale(1);
+    }
+}
+
+
+/*--------------------------------------------------------------
+# Icon Box
+--------------------------------------------------------------*/
+/*Style 1*/
+.mega-addons-item-iconbox.style_1 {
+    text-align: center;
+    padding: 0 30px;
+}
+
+.mega-addons-item-iconbox.style_1 .mega-addons-item-iconbox-icon {
+    font-size: 42px;
+    border: 1px solid;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding: 27px 20px 20px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.mega-addons-item-iconbox.style_1 .mega-addons-item-iconbox-content h5 {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.mega-addons-item-iconbox.style_1 .mega-addons-item-iconbox-content p {
+    margin-bottom: 0;
+}
+
+.mega-addons-item-iconbox.style_1:hover .mega-addons-item-iconbox-icon:before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    left: 0;
+    top: 0;
+    border-radius: 50%;
+    -webkit-animation: pulse-ring 2s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+    animation: pulse-ring 2s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+}
+
+
+@-webkit-keyframes pulse-ring {
+    0% {
+        -webkit-transform: scale(0.33);
+        transform: scale(0.33);
+    }
+
+    80%,
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes pulse-ring {
+    0% {
+        -webkit-transform: scale(0.33);
+        transform: scale(0.33);
+    }
+
+    80%,
+    100% {
+        opacity: 0;
+    }
+}
+
+/*Style 2*/
+.mega-addons-item-iconbox.style_2 {
+    text-align: center;
+    padding: 0 30px;
+}
+
+.mega-addons-item-iconbox.style_2 .mega-addons-item-iconbox-icon {
+    width: 80px;
+    height: auto;
+    margin: 0 auto 25px;
+}
+
+.mega-addons-item-iconbox.style_2 .mega-addons-item-iconbox-content h5 {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.mega-addons-item-iconbox.style_2 .mega-addons-item-iconbox-content p {
+    margin-bottom: 0;
+}
+
+/*--------------------------------------------------------------
+# List
+--------------------------------------------------------------*/
+.mega-addons-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.mega-addons-list i {
+    border-radius: 50%;
+    padding-top: 6px;
+    font-size: 10px;
+    height: 22px;
+    width: 22px;
+    margin-top: 2px;
+    margin-right: 10px;
+}
+
+.mega-addons-list li {
+    line-height: 26px;
+    overflow: hidden;
+}
+
+.mega-addons-list.style2 li {
+    width: 50%;
+    float: left;
+}
+
+
+/*--------------------------------------------------------------
+# Pricing
+--------------------------------------------------------------*/
+
+.mega-addons-pricing-table {
+    background: #fff;
+    text-align: center;
+    padding: 50px 30px;
+    box-shadow: 0px 10px 40px 0px rgba(60, 67, 113, 0.05);
+}
+
+.mega-addons-pricing-table h6 {
+    text-transform: uppercase;
+}
+
+.mega-addons-pricing-table.recommended {
+    position: relative;
+}
+
+.mega-addons-pricing-table.recommended:after {
+    position: absolute;
+    content: 'Recommended';
+    left: 27%;
+    top: 0;
+    color: #fff;
+    padding: 3px 15px;
+}
+
+.mega-addons-pricing-table .mega-addons-currency {
+    font-size: 16px;
+}
+
+.mega-addons-pricing-table .mega-addons-price {
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.mega-addons-pricing-table>span {
+    color: #000;
+}
+
+.mega-addons-pricing-table ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.mega-addons-pricing-table ul li {
+    line-height: 40px;
+}
+
+.mega-addons-pricing-table .mega-addons-buy-button {
+    color: #fff;
+    padding: 12px 40px;
+    display: inline-block;
+}
+
+
+/*--------------------------------------------------------------
+# Team
+--------------------------------------------------------------*/
+
+.mega-addons-team {
+    text-align: center;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 5.994px 14.835px 30px 0px rgba(229, 234, 239, 0.5);
+}
+
+.mega-addons-team img {
+    margin-bottom: 40px;
+}
+
+.mega-addons-team h4 {
+    margin-bottom: 10px !important;
+    font-weight: 600;
+}
+
+.mega-addons-team ul {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.mega-addons-team ul .list-inline-item:not(:last-child) {
+    margin-right: 15px;
+}
+
+.mega-addons-team ul li a {
+    color: #9e9e9e;
+    border: 1px solid #9e9e9e;
+    border-radius: 50%;
+    padding: 7px;
+    display: block;
+}
+
+.mega-addons-team ul li a:hover {
+    color: #fff;
+    border-color: #fff;
+}
+
+
+/*--------------------------------------------------------------
+# Testimonials
+--------------------------------------------------------------*/
+
+.mega-addons-testimonials {
+    text-align: center;
+}
+
+.mega-addons-testimonial-content img {
+    margin: 0 auto;
+    border-radius: 50% !important;
+    width: 100px;
+    height: 100px !important;
+    margin-bottom: 20px;
+}
+
+.mega-addons-testimonial-content i {
+    color: #ddd
+}

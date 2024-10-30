@@ -1,0 +1,50 @@
+.mega-addons-popup-video,
+.mega-addons-btn.bordered:hover,
+.mega-addons-accordion.style-3 .mega-addons-accordion-item.active h5,
+.mega-addons-pricing-table .mega-addons-buy-button,
+.mega-addons-pricing-table.recommended:after,
+.mega-addons-play-btn-icon,
+.mega-addons-team ul li a:hover,
+.mega-addons-call-to-action a,
+.mega-addons-item-Iconbox.style_1 .mega-addons-item-iconbox-icon:before,
+.blog-item-meta-1,
+.booking-form input[type=submit],
+.service-list:hover .service-list-icon,
+.pricing-table.selected:after,
+.pricing-table .card .price,
+.pricing-table a,
+.accordion-item h6:hover,
+.accordion-item.active h6,
+.team ul li a:hover,
+.mega-addons-btn,
+.mega-addons-tabs .nav-link.active i,
+.mega-addons-tabs .nav-link.active span,
+.call-to-action ul li a,
+.popup-icon,
+.banner ul li:first-child a,
+.banner ul li:last-child a:hover {
+    background: #2775ff;
+}
+
+.star-rating i,
+.mega-addons-btn.bordered,
+.mega-addons-accordion-item.active h5,
+.mega-addons-accordion-item.active h5 span,
+.mega-addons-heading-title i,
+.mega-addons-heading-title span,
+.tariff-item-content span,
+.service-list-icon i,
+.item-service .item-service-icon,
+a:hover,
+.mega-addons-tabs .nav-link.active,
+.section-title h1 span {
+    color: #2775ff;
+}
+
+.service-list-icon,
+.mega-addons-btn.bordered,
+.mega-addons-item-Iconbox.style_1 .mega-addons-item-iconbox-icon,
+.item-service,
+.item-service .item-service-icon {
+    border-color: #2775ff;
+}
